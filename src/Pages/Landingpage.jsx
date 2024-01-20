@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../Assets/Cricket-bro.svg";
 import CursorBlinkComponent from "../Components/Styledcomponents/Cursorblinker";
-import HoverButton from "../Components/Styledcomponents/Hoverbutton";
+import Button from '../Components/Styledcomponents/Button'
 import teamImg from "../Assets/team.jpg";
 import team2 from "../Assets/team2.jpg";
 
@@ -21,7 +21,12 @@ const Landingpage = () => {
 						designed with one goal in mind: to make your turf
 						booking experiance seamless and enjoyable.
 					</p>
-					<HoverButton text={"Book"} hover={false} />
+					<Button
+						text={"Book"}
+						customStyles={
+							"bg-black px-6 text-white font-semibold hover:bg-[#8ba889] hover:text-black hover:outline outline-1 duration-300"
+						}
+					/>
 				</div>
 				<div className="w-[50%] mb-36">
 					<img
