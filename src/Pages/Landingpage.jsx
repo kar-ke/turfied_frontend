@@ -67,7 +67,14 @@ const Landingpage = () => {
 					</p>
 				</div>
 			</section>
-			<section className="bg-[#253528] h-screen rounded-t-[5rem] "></section>
+			<section className="bg-[#253528] h-[80vh] rounded-[5rem] m-40 ">
+
+
+			</section>
+			<section className="bg-[#000000] h-screen rounded-t-[5rem] m-32 ">
+
+
+			</section>
 		</div>
 	);
 };

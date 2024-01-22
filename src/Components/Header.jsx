@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<div className="w-full  fixed top-0 ">
-			<nav className="flex flex-row justify-between items-center px-24 bg-[#fff] py-5   ">
+		<div className=" top-0 fixed w-full  z-50">
+			<nav className="flex flex-row justify-between items-center px-24 bg-transparent py-5   ">
 				<div>
 					<h1 className="font-[poppins] font-bold text-3xl hover:opacity-70">
 						Turfied
